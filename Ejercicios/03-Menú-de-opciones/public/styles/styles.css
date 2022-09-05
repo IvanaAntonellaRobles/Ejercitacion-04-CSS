@@ -1,0 +1,126 @@
+body {
+    background-color: white;
+    height: 100%;
+}
+.contain-card {
+    background-color: rgb(199, 198, 198);
+    height: 650px;
+    width: 500px;
+    margin: 2% 20%;
+    padding: 10px;
+    border: 2px grey solid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+header {
+    background-color: white;
+    flex-basis: 100px;
+    width: auto;
+    border: 1px grey solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+header .contain-photo {
+    flex-basis: 100px;
+    height: 100px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .contain-name {
+    width: 100px;
+    height: 100px;
+    border: 1.8px grey solid;
+    flex-grow: 1;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .contain-edit {
+    flex-basis: 100px;
+    height: 100px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contain-card .contain-list-options {
+    height: 400px;
+    width: 478px;
+    background-color: white;
+    border: 2px grey solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contain-list-options .profile {
+    width: auto;
+    height: 70px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+}
+.contain-list-options .data {
+    width: auto;
+    height: 70px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+}
+.contain-list-options .card {
+    width: auto;
+    height: 70px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+}
+.contain-list-options .networks {
+    width: auto;
+    height: 70px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+}
+.contain-list-options .settings {
+    width: auto;
+    height: 70px;
+    border: 1.8px grey solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+}
+
+footer {
+    width: auto;
+    height: 70px;
+    border: 2px grey solid;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .log-out {
+    background-color: rgb(253, 106, 52);
+    border: 2px grey solid;
+    color: white;
+    padding: 10px 60px;
+    font-size: 13px;
+    font-weight: bolder;
+}
